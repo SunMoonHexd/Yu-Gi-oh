@@ -154,6 +154,18 @@ class Program
         c6.nivel = 1;
         c6.descripcion = "Un pequeño monstruo peludo que puede salvarte en el momento justo.";
 
+        c1.Defiende();
+        c1.CambiarModo("defensa");
+        c2.Defiende();
+        c2.CambiarModo("ataque");
+        c3.Defiende();
+        c3.CambiarModo("defensa");
+        c4.Defiende();
+        c4.CambiarModo("ataque");
+        c5.Defiende();
+        c5.CambiarModo("defensa");
+        c6.Defiende();
+        c6.CambiarModo("ataque");
     }
 
     public static void MostrarInfo()
