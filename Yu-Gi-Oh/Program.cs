@@ -91,7 +91,29 @@ class Carta
             }
         }
     }
+    private string modo = "ataque";
+
+    public void Defiende()
+    {
+        Console.WriteLine($"El monstruo {nombre} defenderá con {DEF} puntos");
+    }
+
+    public void CambiarModo(string nuevoModo)
+    {
+        if (nuevoModo.ToLower() == "ataque")
+        {
+            modo = "ataque";
+            Console.WriteLine($"La carta {nombre} fue colocada en ataque");
+        }
+        else if (nuevoModo.ToLower() == "defensa")
+        {
+            modo = "defensa";
+            Console.WriteLine($"La carta {nombre} fue colocada en defensa");
+        }
+    }
+
 }
+
 
 class Program
 {
