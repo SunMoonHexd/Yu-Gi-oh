@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yu-Gi-Oh")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa0e5f26c080fb6ffc7acf46e215964722cbd92a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yu-Gi-Oh")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yu-Gi-Oh")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

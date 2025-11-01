@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\Repositorio\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj",
       "projectName": "Yu-Gi-Oh",
-      "projectPath": "C:\\Users\\Usuario\\Downloads\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Downloads\\Repositorio\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Downloads\\Yu-Gi-oh\\Yu-Gi-Oh\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Downloads\\Repositorio\\Yu-Gi-oh\\Yu-Gi-Oh\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
