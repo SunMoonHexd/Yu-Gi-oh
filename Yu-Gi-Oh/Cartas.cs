@@ -78,27 +78,36 @@ namespace Yugioh
     private int LV;
 
     public int nivel
-    {
-        get { return LV; }
-        set
         {
-            if (value < 0)
+            get { return LV; }
+            set
             {
-                LV = 0;
-            }
-            else
-            {
-                LV = value;
+                if (value < 0)
+                {
+                    LV = 0;
+                }
+                else
+                {
+                    LV = value;
+                }
             }
         }
-    }
+      
+
+        
+    
     private string modo = "ataque";
 
-    public void Defiende()
-    {
-        Console.WriteLine($"El monstruo {nombre} defenderá con {DEF} puntos");
-    }
+        public void Defiende()
+        {
+            Console.WriteLine($"El monstruo {nombre} defenderá con {DEF} puntos");
+        }
+        public void Ataque()
+        {
+            Console.WriteLine($"El monstruo {nombre} atacara con {ATK} puntos");
+        }
 
+    
     public void CambiarModo(string nuevoModo)
     {
         if (nuevoModo.ToLower() == "ataque")

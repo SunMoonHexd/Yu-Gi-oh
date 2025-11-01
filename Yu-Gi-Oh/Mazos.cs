@@ -46,12 +46,64 @@ namespace Yugioh
             c6.nivel = 1;
             c6.descripcion = "Un pequeño monstruo peludo que puede salvarte en el momento justo.";
 
+
+            Carta c7 = new Carta();
+            c7.name = "Baby Dragon";
+            c7.daño = 1200;
+            c7.defensa = 700;
+            c7.nivel = 3;
+            c7.descripcion = "Dragón bebé";
+
+            Carta c8 = new Carta();
+            c8.name = "Mushroom Man";
+            c8.daño = 800;
+            c8.defensa = 600;
+            c8.nivel = 2;
+            c8.descripcion = "Hombre hongo";
+
+            Carta c9 = new Carta();
+            c9.name = "Baby Dragon";
+            c9.daño = 1200;
+            c9.defensa = 700;
+            c9.nivel = 3;
+            c9.descripcion = "Dragón bebé";
+
+            Carta c10 = new Carta();
+            c10.name = "Baby Dragon";
+            c10.daño = 1200;
+            c10.defensa = 700;
+            c10.nivel = 3;
+            c10.descripcion = "Dragón bebé";
+
+             Carta c11 = new Carta();
+            c11.name = "Tyhone";
+            c11.daño = 1200;
+            c11.defensa = 1400;
+            c11.nivel = 4;
+            c11.descripcion = "Águila tyhone";
+
+             Carta c12 = new Carta();
+            c12.name = "Shadow Specter";
+            c12.daño = 500;
+            c12.defensa = 200;
+            c12.nivel = 1;
+            c12.descripcion = "Espectro sombra";
+
             Cartas.Add(c1);
             Cartas.Add(c2);
             Cartas.Add(c3);
             Cartas.Add(c4);
             Cartas.Add(c5);
             Cartas.Add(c6);
+
+            Cartas.Add(c7);
+            Cartas.Add(c8);
+            Cartas.Add(c9);
+            Cartas.Add(c10);
+            Cartas.Add(c11);
+            Cartas.Add(c12);
+
+        
 
             return Cartas;   
 
