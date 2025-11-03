@@ -12,6 +12,10 @@ class Program
         Cartas[3].Ataque();
         Cartas[3].CambiarModo();
         Cartas[3].MostrarInfo();
-        
+
+        Jugador j1 = new Jugador("Yugi", Cartas);
+        Jugador j2 = new Jugador("Kaiba", Cartas);
+        Duelo.IniciarDuelo(j1,j2);
+
     }  
 }

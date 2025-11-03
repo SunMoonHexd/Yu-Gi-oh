@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Yugioh
 {
-    class Carta
+    public class Carta
     {
         List<string> tipoDeMounstro = new List<string>() { };
         List<string> Atributo = new List<string>() { "oscuridad", "luz", "tierra", "agua", "fuego", "viento" };
@@ -13,7 +13,7 @@ namespace Yugioh
             get { return nombre; }
             set
             {
-                if (value.Length > 20)
+                if (value.Length > 30)
                 {
                     nombre = "";
                 }
