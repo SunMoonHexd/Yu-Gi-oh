@@ -8,28 +8,10 @@ class Program
     {
         List<Carta> Cartas = Mazos.CrearCartas();
         Console.WriteLine("----------------ATK Y DEF----------------");
-        Cartas[10].Defiende();
-        Cartas[10].Ataque();
-        MostrarInfo(10, Cartas);
+        Cartas[3].Defiende();
+        Cartas[3].Ataque();
+        Cartas[3].CambiarModo();
+        Cartas[3].MostrarInfo();
         
-    }
-
-    public static void MostrarInfo(int i, List<Carta> Cartas)
-    {
-        if (i < 0 || i > Cartas.Count())
-        {
-            Console.WriteLine("El indice de la carta no existe.");
-        }
-        else
-        {
-            Console.WriteLine("----------------Información----------------");
-            Console.WriteLine($"El nomrbe de la carta es: {Cartas[i].name} ");
-            Console.WriteLine($"El ATK de la carta es: {Cartas[i].daño} ");
-            Console.WriteLine($"La DEF de la carta es: {Cartas[i].defensa} ");
-            Console.WriteLine($"El LV de la carta es: {Cartas[i].nivel} ");
-            Console.WriteLine($"La descripción de la carta es: {Cartas[i].descripcion} ");   
-        }
-    }
-
-    
+    }  
 }

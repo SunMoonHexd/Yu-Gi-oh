@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiend\\OneDrive\\Escritorio\\yugioh\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj": {}
+    "C:\\Users\\Usuario\\Downloads\\Repositorio\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiend\\OneDrive\\Escritorio\\yugioh\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj": {
+    "C:\\Users\\Usuario\\Downloads\\Repositorio\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiend\\OneDrive\\Escritorio\\yugioh\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\Repositorio\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj",
         "projectName": "Yu-Gi-Oh",
-        "projectPath": "C:\\Users\\tiend\\OneDrive\\Escritorio\\yugioh\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj",
-        "packagesPath": "C:\\Users\\tiend\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiend\\OneDrive\\Escritorio\\yugioh\\Yu-Gi-oh\\Yu-Gi-Oh\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Downloads\\Repositorio\\Yu-Gi-oh\\Yu-Gi-Oh\\Yu-Gi-Oh.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Downloads\\Repositorio\\Yu-Gi-oh\\Yu-Gi-Oh\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiend\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"

@@ -4,80 +4,80 @@ using System.Collections.Generic;
 namespace Yugioh
 {
     class Carta
-{
-    List<string> tipoDeMounstro = new List<string>() { };
-    List<string> Atributo = new List<string>() { "oscuridad", "luz", "tierra", "agua", "fuego", "viento" };
-    private string nombre;
-    public string name
     {
-        get { return nombre; }
-        set
+        List<string> tipoDeMounstro = new List<string>() { };
+        List<string> Atributo = new List<string>() { "oscuridad", "luz", "tierra", "agua", "fuego", "viento" };
+        private string nombre;
+        public string name
         {
-            if (value.Length > 20)
+            get { return nombre; }
+            set
             {
-                nombre = "";
-            }
-            else
-            {
-                nombre = value;
+                if (value.Length > 20)
+                {
+                    nombre = "";
+                }
+                else
+                {
+                    nombre = value;
+                }
             }
         }
-    }
-    private int ATK;
+        private int ATK;
 
-    public int daño
-    {
-        
-        get { return ATK; }
-        set
+        public int daño
         {
-            if (value < 0)
+
+            get { return ATK; }
+            set
             {
-                ATK = 0; 
-            }
-            else
-            {
-                ATK = value;
+                if (value < 0)
+                {
+                    ATK = 0;
+                }
+                else
+                {
+                    ATK = value;
+                }
             }
         }
-    }
-    private int DEF;
-    public int defensa
-    {
-        get { return DEF; }
-        set
+        private int DEF;
+        public int defensa
         {
-            if (value < 0)
+            get { return DEF; }
+            set
             {
-                DEF = 0;
-            }
-            else
-            {
-                DEF = value;
+                if (value < 0)
+                {
+                    DEF = 0;
+                }
+                else
+                {
+                    DEF = value;
+                }
             }
         }
-    }
 
 
-    private string descp;
-    public string descripcion
-    {
-        get { return descp; }
-        set
+        private string descp;
+        public string descripcion
         {
-            if (value.Length > 40)
+            get { return descp; }
+            set
             {
-                descp= "";
-            }
-            else
-            {
-                descp = value;
+                if (value.Length > 100)
+                {
+                    descp = "";
+                }
+                else
+                {
+                    descp = value;
+                }
             }
         }
-    }
-    private int LV;
+        private int LV;
 
-    public int nivel
+        public int nivel
         {
             get { return LV; }
             set
@@ -92,11 +92,7 @@ namespace Yugioh
                 }
             }
         }
-      
-
-        
-    
-    private string modo = "ataque";
+        private string modo = "ataque";
 
         public void Defiende()
         {
@@ -106,20 +102,48 @@ namespace Yugioh
         {
             Console.WriteLine($"El monstruo {nombre} atacara con {ATK} puntos");
         }
+        public void CambiarModo()
+        {
+            if (modo == "ataque")
+            {
+                modo = "defensa";
+                Console.WriteLine($"La carta {nombre} fue colocada en {modo}");
+            }
+            else if (modo == "defensa")
+            {
+                modo = "ataque";
+                Console.WriteLine($"La carta {nombre} fue colocada en {modo}");
+            }
+        }
+        public void MostrarInfo()
+        {
+            Console.WriteLine("----------------Información----------------");
+            Console.WriteLine($"El nomrbe de la carta es: {nombre} ");
+            Console.WriteLine($"El ATK de la carta es: {ATK} ");
+            Console.WriteLine($"La DEF de la carta es: {DEF} ");
+            Console.WriteLine($"El LV de la carta es: {LV} ");
+            Console.WriteLine($"La descripción de la carta es: {descp} ");
+            Console.WriteLine($"El modo de la carta es : {modo} ");
+        }
 
-    
-    public void CambiarModo(string nuevoModo)
-    {
-        if (nuevoModo.ToLower() == "ataque")
+        public Carta()
         {
+            nombre = "";
+            defensa = 0;
+            daño = 0;
+            nivel = 0;
+            descripcion = "";
             modo = "ataque";
-            Console.WriteLine($"La carta {nombre} fue colocada en ataque");
         }
-        else if (nuevoModo.ToLower() == "defensa")
+        public Carta(string nom, int dañ, int def, int niv, string descrip)
         {
-            modo = "defensa";
-            Console.WriteLine($"La carta {nombre} fue colocada en defensa");
+            name = nom;
+            defensa = def;
+            daño = dañ;
+            nivel = niv;
+            descripcion = descrip;
+            modo = "ataque";
         }
+        
     }
-}
 }
