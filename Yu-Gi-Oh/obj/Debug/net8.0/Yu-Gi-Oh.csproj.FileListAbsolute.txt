@@ -1,0 +1,15 @@
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/Yu-Gi-Oh.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/Yu-Gi-Oh.AssemblyInfoInputs.cache
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/Yu-Gi-Oh.AssemblyInfo.cs
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/Yu-Gi-Oh.csproj.CoreCompileInputs.cache
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/Yu-Gi-Oh.sourcelink.json
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/bin/Debug/net8.0/Yu-Gi-Oh
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/bin/Debug/net8.0/Yu-Gi-Oh.deps.json
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/bin/Debug/net8.0/Yu-Gi-Oh.runtimeconfig.json
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/bin/Debug/net8.0/Yu-Gi-Oh.dll
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/bin/Debug/net8.0/Yu-Gi-Oh.pdb
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/Yu-Gi-Oh.dll
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/refint/Yu-Gi-Oh.dll
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/Yu-Gi-Oh.pdb
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/Yu-Gi-Oh.genruntimeconfig.cache
+/workspaces/Yu-Gi-oh/Yu-Gi-Oh/obj/Debug/net8.0/ref/Yu-Gi-Oh.dll

@@ -56,10 +56,16 @@ namespace Yugioh
             }
         }
 
+        public List<Carta> Mano { get; set; } = new List<Carta>();
+
+        public List<Carta> Campo { get; set; } = new List<Carta>();
+
         public Jugador(string nom, List<Carta> Maz)
         {
             nombreJugador = nom;
-            Mazo = Maz;
+            Mazo = Maz ?? new List<Carta>();
+            Mano = new List<Carta>();
+            Campo = new List<Carta>();
         }
 
         public void MostrarJugador()

@@ -135,11 +135,11 @@ namespace Yugioh
             descripcion = "";
             modo = "ataque";
         }
-        public Carta(string nom, int dañ, int def, int niv, string descrip)
+        public Carta(string nom, int atk, int def, int niv, string descrip)
         {
             name = nom;
+            daño = atk;
             defensa = def;
-            daño = dañ;
             nivel = niv;
             descripcion = descrip;
             modo = "ataque";
